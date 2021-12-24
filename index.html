@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria Serykh - Junior Front-End Developer</title>
+    <title>Arzamasova Anastasiia - Junior Front-End Developer</title>
     <link rel="icon" href="#">
     <link rel="stylesheet" href="style.css">
    </head>
@@ -12,9 +12,7 @@
     <div class="wrapper">
       <header class="page-header">
         <div class="page-header__inner">
-           <div class="page-header__burger" title="Open menu">
-            <span></span>
-          </div>
+          
           <nav class="page-header-nav">
             <ul class="site-navigation">
               <li class="site-navigation__item"><a class="site-navigation__link" href="#skills">Skills</a></li>
@@ -35,7 +33,7 @@
             <div class="about-me__img-container">
               <img class="about-me__img" src="img.jpg" alt="Personal photo">
             </div>
-            <h1 class="title about-me__job">Arzamasova Anastasiia -Front-End Developer</h1>
+            <h1 class="title about-me__job">Arzamasova Anastasiia - Front-End Developer</h1>
             
             
             <div class="about-me__description">
@@ -44,31 +42,37 @@
           </section>
 
           <section class="contacts">
+            <h2 class="title">Contacts</h2>
             <ul class="contact-links">
+              
                 <li class="contact-links__item github">
+                  <img class="contact-img" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github-img" width="50px" height="50px" >
                   <a href="https://github.com/asya1003" class="contact-links__link" target="_blank">
-                  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github-img" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  Github
                   </a>
                 </li>
+                
                 <li class="contact-links__item email">
-                  <a href="https://www.linkedin.com/in/mariaserykh/" class="contact-links__link" target="_blank">
-                  <img  src="https://png.pngtree.com/element_our/md/20180517/md_5afd6888ef987.jpg" alt="email" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  </a>
+                  <img  class="contact-img" src="https://png.pngtree.com/element_our/md/20180517/md_5afd6888ef987.jpg" alt="email" width="50" height="50">
+                  avarzamasova@yandex.ru
                   </li>
                 </ul>
           </section>
+          
           <section class="skills block-bg">
             <p class="subtitle">Why hire me</p>
             <h2 id="skills" class="title">
               Hard skills
             </h2>
-            <ul class="skills__list">
-              <li class="skills__item">HTML</li>
-              <li class="skills__item">CSS</li>
-              <li class="skills__item">JavaScript</li>
-              <li class="skills__item">Figma</li>
-              <li class="skills__item">Git</li>
-            </ul>
+            <div class="skills__list">
+              <ul>
+                <li class="skills_item">HTML</li>
+                <li class="skills_item">CSS</li>
+                <li class="skills_item">JavaScript</li>
+                <li class="skills_item">Figma</li>
+                <li class="skills_item">Git</li>
+              </ul>
+              </div>
           </section>
 
           <section class="projects container">
@@ -78,26 +82,15 @@
             </h2>
             <div class="projects__wrapper">
               <article class="projects__item">
-                <a class="projects__link" href="https://rolling-scopes-school.github.io/mserykh-JSFEPRESCHOOL/custom-video-player/" target="_blank">
-                  <img class="projects__img" src="./assets/content/images/custom-video-player.jpg" alt="">
-                  <div class="projects__content">
-                    <p class="subtitle projects__subtitle">HTML, CSS, JS</p>
-                    <h3 class="title projects__title">
-                      Custom video player
-                    </h3>
-                    <p class="projects__desc">A customised HTML5 video player with controls custom design and following functionality: managing volume, playback rate, fullscreen mode, rewind back / forward with buttons and keyboard.</p>
-                    <div class="btn btn--base btn--link">
-                      <span>See project</span>
-                    </div>
-                  </div>
-                </a>
+                 I haven't got yet any projects, only this CV
               </article>
           </section>
 
           <section class="experience container">
             <p class="subtitle">Where I worked</p>
             <h2 id="experience" class="title">Experience</h2>
-           <ul>
+           <div class="experience">
+             <ul>
                <li class="experience_list">
                    <p class="experience_el">Sep. 2011 - Nov. 2014 Sales manager, SBERBANK</p>
                </li>
@@ -108,6 +101,7 @@
                 <p class="experience_el">Okt. 2016 - present Manager mortgage lending, SBERBANK</p>
             </li>
            </ul>
+          </div>
           </section>
           
           <section class="languages container">
@@ -118,16 +112,13 @@
               <dd class="languages__level">Fluent</dd>
               <dt class="languages__title">Russian</dt>
               <dd class="languages__level">Native</dd>
-              <dt class="languages__title">Polish</dt>
-              <dd class="languages__level">Pre-Intermediate</dd>
-              <dt class="languages__title">French</dt>
-              <dd class="languages__level">Pre-Intermediate</dd>
             </dl>
           </section>
           <section class="education container">
             <p class="subtitle">Where I gained my knowledge</p>
             <h2 id="education" class="title">Education and courses</h2>
-            <ul class="education__list">
+            <div class="education__list">
+            <ul>
               <li class="education__item">
                 <p class="education_text">
                     Sep. 2006 - July 2011 bachelor of Economics, faculty of Management and marketing”
@@ -195,43 +186,47 @@
                 </p>
               </li>
             </ul>
+          </div>
           </section>
 
           <section class="code-examples container">
             <p class="subtitle">My code style</p>
             <h2 id="code" class="title">Code examples</h2>
-              <pre>              <code class="js_code">
-
-                <span class="hljs-keyword">string</span> = "how can mirrors be real if our eyes aren't real";
-                <span class="hljs-keyword">newstring</span> = <span class="hljs-keyword">string</span>.<span class="hljs-title function_">replace</span>(/(^\w|\s\w)/g, m => m.<span class="hljs-title function_">toUpperCase</span>());;
-console.log(<span class="hljs-keyword"></span>newstring</span>);
+                            <code class="js_code">
+                              <pre>
+<span class="hljs-keyword">string</span> = "how can mirrors be real if our eyes aren't real";
+<span class="hljs-keyword">newstring</span> = <span class="hljs-keyword">string</span>.<span class="hljs-title_function">replace</span>(/(^\w|\s\w)/g, m => m.<span class="hljs-title_function">toUpperCase</span>());;
+console.log(<span class="hljs-keyword">newstring</span>);
+</pre>
 
                   </code>
-              </pre>
+              
           </section>
                   
         </div>
       </main>
-      
+    </div>
+
       <footer class="page-footer">
         <div class="page-footer__inner">
           <div class="page-footer__copyright">
             <p>© 2021 by Anastasiia Arzamasova</p>
           </div>
           <ul class="page-footer__contact-links">
-            <li class="contact-links__item"><a href="https://github.com/asya1003" class="contact-links__link" target="_blank">Github</a></li>
-            
+            <li class="contact-links__item">
+              <a href="https://github.com/asya1003" class="contact-links__link" target="_blank">
+              <img class="footer_img" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github-img" width="50px" height="50px" >
+              </a>
+            </li>
               <a href="https://rs.school/js/" class="contact-links__link" target="_blank">
-                 <img src="./rs_school_js.svg" alt="rs_school_svg" class="rsschool" width="80" height="29" viewBox="0 0 80 29" fill="none">
+                 <img class="footer_img" src="./rs_school_js.svg" alt="rs_school_svg" class="rsschool" width="80" height="29" viewBox="0 0 80 29" fill="none">
              </a>
             </li>
           </ul>
         </div>
       </footer>
-    </div>
-    <script src="script.js"></script>
-    <script src="toggle.js"></script>
-    <script src="selfeval.js"></script>
+    
+
   
   
   </body></html>

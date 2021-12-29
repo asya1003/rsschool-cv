@@ -9,24 +9,25 @@
    </head>
 
   <body id="body">
-    <div class="wrapper">
+    
       <header class="page-header">
-        <div class="page-header__inner">
+        <div class="header_wrapper">
           
-          <nav class="page-header-nav">
-            <ul class="site-navigation">
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#skills">Skills</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#projects">Projects</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#experience">Experience</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#lang">Languages</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#education">Education</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#code">Code Style</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#video">Video</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#contact">Contact</a></li>
+          <nav class="header_nav">
+            <ul class="header_list">
+              <li class="header_item"><a class="header_link" href="#skills">Skills</a></li>
+              <li class="header_item"><a class="header_link" href="#projects">Projects</a></li>
+              <li class="header_item"><a class="header_link" href="#experience">Experience</a></li>
+              <li class="header_item"><a class="header_link" href="#lang">Languages</a></li>
+              <li class="header_item"><a class="header_link" href="#education">Education</a></li>
+              <li class="header_item"><a class="header_link" href="#code">Code Style</a></li>
+              <li class="header_item"><a class="header_link" href="#video">Video</a></li>
+              <li class="header_item"><a class="header_link" href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
       </header>
+      <div class="wrapper">
       <main>
         <div class="main-wrapper">
           <section class="about-me container">
@@ -80,7 +81,9 @@
             <h2 id="projects" class="title">
               Recent projects
             </h2>
-              <p> I haven't got yet any projects, only this CV</p>
+              <p> I haven't got yet any projects, only this CV: 
+                <a href="https://asya1003.github.io/rsschool-cv/">https://asya1003.github.io/rsschool-cv/</a>
+              </p>
               
           </section>
 
@@ -105,12 +108,10 @@
           <section class="languages container">
             <p class="subtitle">I can speak</p>
             <h2 id="lang" class="title">Languages</h2>
-            <dl class="languages__list">
-              <dt class="languages__title">English</dt>
-              <dd class="languages__level">Fluent</dd>
-              <dt class="languages__title">Russian</dt>
-              <dd class="languages__level">Native</dd>
-            </dl>
+            <ul class="languages__list">
+              <li class="languages__title">English - B2</li>
+              <li class="languages__title">Russian - Native</li>
+            </ul>
           </section>
           <section class="education container">
             <p class="subtitle">Where I gained my knowledge</p>
@@ -190,19 +191,19 @@
           <section class="code-examples container">
             <p class="subtitle">My code style</p>
             <h2 id="code" class="title">Code examples</h2>
-            <pre>
+            
                <code class="js_code">
-                              
+                                        
 <span class="hljs-keyword">string</span> = "how can mirrors be real if our eyes aren't real";
 <span class="hljs-keyword">newstring</span> = <span class="hljs-keyword">string</span>.<span class="hljs-title_function">replace</span>(/(^\w|\s\w)/g, m => m.<span class="hljs-title_function">toUpperCase</span>());;
 console.log(<span class="hljs-keyword">newstring</span>);
-                  </code>
-                </pre>
+                </code>
+                
           </section>
-                  
-        </div>
+        </div>           
+        
       </main>
-    </div>
+      </div>
 
       <footer class="page-footer">
         <div class="page-footer__inner">

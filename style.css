@@ -177,9 +177,7 @@ justify-content:space-between;
     text-align: left;
     
 }
-.js_code {
-    display: flex;
-}
+
 .hljs-keyword {
     color:red;
 }
